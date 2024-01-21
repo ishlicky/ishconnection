@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333; 
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: darkcyan;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color:red;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  .hover img{margin-left: 240px;
+    margin-top: 340px;
+  height: 150px;
+width: 180px;
+border: 4px;}
+.service img{margin-left: 200px;
+  margin-top: 340px;
+height: 150px;
+width: 180px;
+border: 4px;}
+.nipe img{
+  margin-right: fixed-end;
+height: 200px;
+width: 200px;
+border: 4px;
+ }
+ fieldset{height: 190px;
+  font-size: larger;
+width: 1307px;
+color: tomato;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+img{width:50px;
+   border-radius:1000px;
+  height:50px;
+position: left;
+margin-left: 0.0005;}
+.kk a{color: white;
+font-size: larger;
+margin-left: 580px;
+text-decoration: none;}
