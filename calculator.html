@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <style>
+        /* Add CSS styling here */
+    </style>
+</head>
+<body>
+    <!-- <div class="calculator">
+        <input type="text" id="result" disabled>
+        <button onclick="clearScreen()">C</button>
+        <button onclick="appendToScreen('(')"> ( </button>
+        <button onclick="appendToScreen(')')"> ) </button>
+        <button onclick="appendToScreen('/')"> / </button>
+        <button onclick="appendToScreen('7')"> 7 </button>
+        <button onclick="appendToScreen('8')"> 8 </button>
+        <button onclick="appendToScreen('9')"> 9 </button>
+        <button onclick="appendToScreen('*')"> * </button>
+        <button onclick="appendToScreen('4')"> 4 </button>
+        <button onclick="appendToScreen('5')"> 5 </button>
+        <button onclick="appendToScreen('6')"> 6 </button>
+        <button onclick="appendToScreen('-')"> - </button>
+        <button onclick="appendToScreen('1')"> 1 </button>
+        <button onclick="appendToScreen('2')"> 2 </button>
+        <button onclick="appendToScreen('3')"> 3 </button>
+        <button onclick="appendToScreen('+')"> + </button>
+        <button onclick="appendToScreen('.')"> . </button>
+        <button onclick="appendToScreen('0')"> 0 </button>
+        <button onclick="calculate()"> = </button>
+    </div>
+
+    <script>
+        function appendToScreen(value) {
+            document.getElementById("result").value += value;
+        }
+
+        function clearScreen() {
+            document.getElementById("result").value = "";
+        }
+
+        function calculate() {
+            var result = eval(document.getElementById("result").value);
+            document.getElementById("result").value = result;
+        }
+    </script> -->
+    <div class="calculator">
+        <input type="text" id="result" disabled>
+        <button onclick="clearScreen()">C</button>
+        <button onclick="appendToScreen('(')"> ( </button>
+        <button onclick="appendToScreen(')')"> ) </button>
+        <button onclick="appendToScreen('/')"> / </button>
+        <button onclick="appendToScreen('7')"> 7 </button>
+        <button onclick="appendToScreen('8')"> 8 </button>
+        <button onclick="appendToScreen('9')"> 9 </button>
+        <button onclick="appendToScreen('*')"> * </button>
+        <button onclick="appendToScreen('4')"> 4 </button>
+        <button onclick="appendToScreen('5')"> 5 </button>
+        <button onclick="appendToScreen('6')"> 6 </button>
+        <button onclick="appendToScreen('-')"> - </button>
+        <button onclick="appendToScreen('1')"> 1 </button>
+        <button onclick="appendToScreen('2')"> 2 </button>
+        <button onclick="appendToScreen('3')"> 3 </button>
+        <button onclick="appendToScreen('+')"> + </button>
+        <button onclick="appendToScreen('.')"> . </button>
+        <button onclick="appendToScreen('0')"> 0 </button>
+        <button onclick="calculate()"> = </button>
+        <button onclick="squareRoot()"> √ </button>
+    </div>
+
+    <script>
+        function appendToScreen(value) {
+            document.getElementById("result").value += value;
+        }
+
+        function clearScreen() {
+            document.getElementById("result").value = "";
+        }
+
+        function calculate() {
+            var result = eval(document.getElementById("result").value);
+            document.getElementById("result").value = result;
+        }
+
+        function squareRoot() {
+            var number = document.getElementById("result").value;
+            var result = Math.sqrt(number);
+            document.getElementById("result").value = result;
+        }
+    </script>
+
+</body>
+</html>
